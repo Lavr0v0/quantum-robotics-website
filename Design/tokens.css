@@ -1,0 +1,81 @@
+/*
+  Quantum Robotics — Design Tokens
+  Tactical Command Interface Aesthetic
+  ─────────────────────────────────────────────────────────────
+  Two fonts only:
+    --fA  Anurati       → all headings, titles, labels, numbers
+    --fB  Chakra Petch  → all body copy, nav links, tags, captions
+*/
+
+@font-face {
+  font-family: 'Anurati';
+  src: url('../Fonts/Anurati-Regular.woff') format('woff');
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Aquire';
+  src: url('../Fonts/Aquire-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Aquire';
+  src: url('../Fonts/Aquire-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Aquire';
+  src: url('../Fonts/Aquire-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Chakra Petch';
+  src: url('../Fonts/ChakraPetch-Regular.ttf') format('truetype');
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: 'Chakra Petch';
+  src: url('../Fonts/ChakraPetch-Medium.ttf') format('truetype');
+  font-weight: 500; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: 'Chakra Petch';
+  src: url('../Fonts/ChakraPetch-SemiBold.ttf') format('truetype');
+  font-weight: 600; font-style: normal; font-display: swap;
+}
+
+:root {
+  /* ── Background layers ─────────────────────── */
+  --bg:    #07090D;   /* base page bg */
+  --bg2:   #0B0E16;   /* alternate section bg */
+  --panel: #0E1219;   /* card / panel surface */
+
+  /* ── Accent — team orange ──────────────────── */
+  --or:    #FF6B3B;
+  --or2:   rgba(255, 107, 59, 0.16);
+  --or3:   rgba(255, 107, 59, 0.07);
+
+  /* ── Text scale ────────────────────────────── */
+  --t1:    #F2F7FC;   /* primary / headings */
+  --t2:    #A8BEC8;   /* body / secondary */
+  --t3:    #2E4252;   /* muted / metadata */
+
+  /* ── Borders ───────────────────────────────── */
+  --bd:    rgba(255, 107, 59, 0.12);
+  --bd2:   rgba(255, 107, 59, 0.28);
+
+  /* ── Typography ────────────────────────────── */
+  --fA: 'Anurati',     sans-serif;  /* title font  */
+  --fB: 'Chakra Petch', sans-serif; /* body font   */
+}
